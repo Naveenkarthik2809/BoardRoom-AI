@@ -1,0 +1,38 @@
+# Environment files
+.env
+*.env
+.env.*
+
+# Specs folder (Kiro internal)
+.specs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.env.local
+
+# IDE
+.vscode/
+.idea/
+.kiro/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
